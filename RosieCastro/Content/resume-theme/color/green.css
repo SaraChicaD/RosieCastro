@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* ============================== */
+/* 
+	- Title: Resume html Template
+	- Autor: Coralixthemes
+*/
+/* ============================== */
+
+
+
+hr {
+  border-color: #3b9767;
+}
+
+.navbar .nav > li > a.active,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  background: #3b9767;
+}
+
+.maintext h3 {
+  color: #3b9767;
+}
+
+.featured-text {
+  border-left: 4px solid #3b9767;
+}
