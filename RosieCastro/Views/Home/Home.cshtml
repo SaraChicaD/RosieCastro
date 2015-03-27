@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_LayoutResume.cshtml";
+}
+
+@section styles{
+    <style type="text/css">
+
+    </style>
+}
+
+<div class="maintext">
+    <div class="row-fluid">
+        <div class="span3 text-center">
+            <p><a href="#" class="button button-cv"><span class="button-inner"><i class="icon-download"></i><br>Download CV</span></a></p>
+        </div>
+        <div class="span8 offset1">
+            <h2>Who am I?</h2>
+            <p>Your talent me lius quod i legu saepius. Claritas est etiam processus dynamicus, qui sequr mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Browse my portoflio and fodem modo typi, qui nunc nobis videntur parum clar.</p>
+        </div>
+    </div>
+    <address id="contactinfo">
+        <div class="row-fluid">
+            <div class="span6">
+                <p class="featured-text">
+                    <b>Name:</b> Tommy Smith<br>
+                    <b>Date of birth:</b> 12 April, 1999<br>
+                    <b>Address:</b> 8 Long Island, USA<br>
+                </p>
+            </div>
+            <div class="span6">
+                <p class="featured-text">
+                    <b>Telephone:</b> +52656 1515<br>
+                    <b>Web:</b> www.coralixthemes.com<br>
+                    <b>Email:</b> company@email.com<br>
+                </p>
+            </div>
+        </div>
+    </address>
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        Resume.Page.StartUp = function () {
+            //alert("Hi Sara!");
+        }
+    </script>
+}

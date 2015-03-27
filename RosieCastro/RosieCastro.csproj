@@ -185,14 +185,31 @@
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\resume-theme\animations\animate.css" />
+    <Content Include="Content\resume-theme\bootstrap\bootstrap-responsive.min.css" />
+    <Content Include="Content\resume-theme\bootstrap\bootstrap.min.css" />
+    <Content Include="Content\resume-theme\color\blue.css" />
+    <Content Include="Content\resume-theme\color\green.css" />
+    <Content Include="Content\resume-theme\color\orange.css" />
+    <Content Include="Content\resume-theme\color\violet.css" />
+    <Content Include="Content\resume-theme\fancybox\blank.gif" />
+    <Content Include="Content\resume-theme\fancybox\fancybox-close.png" />
+    <Content Include="Content\resume-theme\fancybox\fancybox_loading.gif" />
+    <Content Include="Content\resume-theme\fancybox\fancybox_overlay.png" />
+    <Content Include="Content\resume-theme\fancybox\fancybox_sprite.png" />
+    <Content Include="Content\resume-theme\fancybox\jquery.fancybox.css" />
+    <Content Include="Content\resume-theme\fonts\animation.css" />
+    <Content Include="Content\resume-theme\fonts\fontello-codes.css" />
+    <Content Include="Content\resume-theme\fonts\fontello-embedded.css" />
+    <Content Include="Content\resume-theme\fonts\fontello-ie7-codes.css" />
+    <Content Include="Content\resume-theme\fonts\fontello-ie7.css" />
+    <Content Include="Content\resume-theme\fonts\fontello.css" />
+    <Content Include="Content\resume-theme\fonts\fontello.svg" />
+    <Content Include="Content\resume-theme\jquery-mate\mate.hover.css" />
+    <Content Include="Content\resume-theme\style.css" />
     <Content Include="Content\ThemeStyleSheet.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\animation.css" />
-    <Content Include="Content\fontello-codes.css" />
-    <Content Include="Content\fontello-embedded.css" />
-    <Content Include="Content\fontello-ie7-codes.css" />
-    <Content Include="Content\fontello-ie7.css" />
-    <Content Include="Content\fontello.css" />
     <Content Include="fonts\fontello.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -202,7 +219,11 @@
     <Content Include="fonts\fontello.eot" />
     <Content Include="fonts\fontello.ttf" />
     <Content Include="fonts\fontello.woff" />
+    <Content Include="Content\resume-theme\fonts\fontello.eot" />
+    <Content Include="Content\resume-theme\fonts\fontello.ttf" />
+    <Content Include="Content\resume-theme\fonts\fontello.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -213,6 +234,13 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\resume-theme\bootstrap\bootstrap.min.js" />
+    <Content Include="Scripts\resume-theme\fancybox\jquery.fancybox.pack.js" />
+    <Content Include="Scripts\resume-theme\jquery-1.9.1.min.js.js" />
+    <Content Include="Scripts\resume-theme\jquery-isotope\jquery.isotope.min.js" />
+    <Content Include="Scripts\resume-theme\jquery-mate\jquery.mate-hover.1-0-min.js" />
+    <Content Include="Scripts\resume-theme\PIE\PIE.js" />
+    <Content Include="Scripts\resume-theme\script.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -249,11 +277,14 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\Home.cshtml" />
+    <Content Include="Views\Shared\_LayoutResume.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="fonts\App_LocalResources\" />
     <Folder Include="Models\ViewModels\" />
+    <Folder Include="Scripts\resume-theme\vendor\" />
     <Folder Include="Views\ContactPage\" />
     <Folder Include="Views\Contact\" />
   </ItemGroup>

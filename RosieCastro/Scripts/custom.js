@@ -1,0 +1,1 @@
+﻿var Resume = { Handlers: {}, Services: {}, Page: {}, Layout: {}, Tests: {}, MapsUtility: {}, Utilities: {}, Analytics: {} };
