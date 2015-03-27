@@ -24,8 +24,12 @@ namespace RosieCastro
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                     "~/Content/bootstrap-responsive.css",
                       "~/Content/bootstrap.min.css",
-                      "~/Content/style.css", "~/Content/bootstrap-responsive.min.css"));
+                      "~/Content/style.css", "~/Content/blue.css", "~/Content/bootstrap-responsive.min.css",
+                      "~/Content/site.css", "~/Content/animation.css", "~/Content/animate.css",
+                      "~/Content/bootstrap.css", "~/Content/bootstrap-theme.css"               
+                      ));
         }
     }
 }

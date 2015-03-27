@@ -1,7 +1,32 @@
 ﻿@{
     ViewBag.Title = "About";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+    Layout = "~/Views/Shared/_Layout.cshtml";
 
-<p>Use this area to provide additional information.</p>
+}
+<div class="maintext">
+    <div class="row-fluid">
+        <div class="span3 text-center">
+            <p><a href="#" class="button button-cv"><span class="button-inner"><i class="icon-download"></i><br>My CV</span></a></p>
+        </div>
+        <div class="span8 offset1">
+            <h2>Rosie Castro: Educator, Activist and Speaker</h2>
+            <p> Short bio here.</p>
+        </div>
+    </div>
+    <address id="contactinfo">
+        <div class="row-fluid">
+            <div class="span6">
+                <p class="featured-text">
+                    <b>Name:</b> Rosie Castro<br>
+                    <b>Hometown:</b> San Antonio, Texas<br>
+                </p>
+            </div>
+            <div class="span6">
+                <p class="featured-text">
+                    <b>Twitter:</b> <a href="https://twitter.com/castrocountry">castrocountry</a><br>
+                    <b>Web:</b> <a href="www.rosiecastro.com">www.rosiecastro.com</a><br>
+                </p>
+            </div>
+        </div>
+    </address>
+</div>

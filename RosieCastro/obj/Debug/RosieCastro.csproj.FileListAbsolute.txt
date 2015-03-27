@@ -58,4 +58,3 @@ C:\SF.Code\RosieCastro\RosieCastro\bin\Microsoft.Owin.Security.Twitter.xml
 C:\SF.Code\RosieCastro\RosieCastro\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\SF.Code\RosieCastro\RosieCastro\obj\Debug\RosieCastro.dll
 C:\SF.Code\RosieCastro\RosieCastro\obj\Debug\RosieCastro.pdb
-C:\SF.Code\RosieCastro\RosieCastro\obj\Debug\RosieCastro.csprojResolveAssemblyReference.cache

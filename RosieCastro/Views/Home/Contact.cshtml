@@ -1,3 +1,56 @@
 ﻿@{
     ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+    <div class="section-name">
+        <h1 class="title">Contact me</h1>
+    </div>
+    <div class="maintext">
+        <div class="row-fluid">
+            <div class="span6">
+                <form action="send_mail.php" id="contactinfo">
+                    <label><strong>Name</strong> <em>(required)</em></label>
+                    <div class="input-append">
+                        <input type="text" name="Name" required>
+                        <span class="add-on"><i class="icon-user"></i></span>
+                    </div>
+                    <label><strong>Subject</strong> <em>(required)</em></label>
+                    <div class="input-append">
+                        <input type="text" name="Subject" required>
+                        <span class="add-on"><i class="icon-comment"></i></span>
+                    </div>
+                    <label><strong>Email</strong> <em>(required)</em></label>
+                    <div class="input-append">
+                        <input type="email" name="Email" required>
+                        <span class="add-on"><i class="icon-mail"></i></span>
+                    </div>
+                    <label><strong>Message</strong></label>
+                    <textarea name="Message"></textarea>
+                    <br>
+                    <div class="text-right">
+                        <input type="submit" class="btn btn-primary btn-large" value="Send it">
+                    </div>
+                </form>
+            </div>
+            <div class="span6">
+                <h2 class="contact-title">My Office</h2>
+                <p><iframe width="100%" height="200" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?sll=37.0625,-95.677068&amp;sspn=39.320439,86.572266&amp;t=h&amp;ie=UTF8&amp;ll=40.68975,-74.045148&amp;spn=0.005695,0.009141&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe></p>
+                <h2>Contact information</h2>
+                <p>Please don't hesitate to contact me for more information about my work.</p>
+                <p>I am available Mon - Friday from 9am to 7pm</p>
+                <address>
+                    Name of the street 123/4<br>Name of the City, country<br>Email: info@company.com<br>Phone: 777.777.7777
+                </address>
+                @*<ul class="unstyled social-icons-nav">
+                    <li><a href="#" title="Facebook"><i class="icon-facebook"></i></a></li>
+                    <li><a href="#" title="Twitter"><i class="icon-twitter"></i></a></li>
+                    <li><a href="#" title="Pinterest"><i class="icon-pinterest"></i></a></li>
+                    <li><a href="#" title="Skype"><i class="icon-skype"></i></a></li>
+                    <li><a href="#" title="Google Plus"><i class="icon-gplus"></i></a></li>
+                    <li><a href="#" title="Linkedin"><i class="icon-linkedin"></i></a></li>
+                </ul>*@
+
+            </div>
+        </div>
+    </div>
