@@ -58,7 +58,6 @@ C:\SF.Code\RosieCastro\RosieCastro\bin\Microsoft.Owin.Security.Twitter.xml
 C:\SF.Code\RosieCastro\RosieCastro\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\SF.Code\RosieCastro\RosieCastro\obj\Debug\RosieCastro.dll
 C:\SF.Code\RosieCastro\RosieCastro\obj\Debug\RosieCastro.pdb
-C:\SF.Code\RosieCastro\RosieCastro\obj\Debug\RosieCastro.csprojResolveAssemblyReference.cache
 C:\Julia\SaraInes\RosieCastro\RosieCastro\RosieCastro\bin\RosieCastro.dll.config
 C:\Julia\SaraInes\RosieCastro\RosieCastro\RosieCastro\bin\RosieCastro.dll
 C:\Julia\SaraInes\RosieCastro\RosieCastro\RosieCastro\bin\RosieCastro.pdb
@@ -120,3 +119,4 @@ C:\Julia\SaraInes\RosieCastro\RosieCastro\RosieCastro\bin\Microsoft.Owin.Securit
 C:\Julia\SaraInes\RosieCastro\RosieCastro\RosieCastro\obj\Debug\RosieCastro.csprojResolveAssemblyReference.cache
 C:\Julia\SaraInes\RosieCastro\RosieCastro\RosieCastro\obj\Debug\RosieCastro.dll
 C:\Julia\SaraInes\RosieCastro\RosieCastro\RosieCastro\obj\Debug\RosieCastro.pdb
+C:\SF.Code\RosieCastro\RosieCastro\obj\Debug\RosieCastro.csprojResolveAssemblyReference.cache

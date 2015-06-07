@@ -5,7 +5,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js">
- <!--<![endif]-->
+<!--<![endif]-->
 <head>
     <!-- Basic Page Needs
     ================================================== -->
@@ -31,8 +31,8 @@
     <!-- Styles
     ================================================== -->
     @*<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/color/orange.css">
-    <link rel="stylesheet" href="font/fontello.css">*@
+        <link rel="stylesheet" href="css/color/orange.css">
+        <link rel="stylesheet" href="font/fontello.css">*@
     <!--[if IE 7]><link rel="stylesheet" href="font/fontello-ie7.css"><![endif]-->
     @Styles.Render("~/Content/resume-theme")
     @RenderSection("styles", required: false)
@@ -42,13 +42,16 @@
 <body>
     <!-- Facebook injected script. Do not remove -->
     <div id="fb-root"></div>
-    <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+    <script>(function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
     <!-- // Facebook injected script -->
     <div class="body">
 
         <!-- Main site header -->
         <header class="site-header text-center">
-            <h1 class="animated delay1 fadeIn"><img src="img/title.png" alt="My resume Logo"></h1>
+            <h1 class="animated delay1 fadeIn"><img src="img/title.png" alt="ROSIE CASTRO" style="color:#000026;"></h1>
+
+
+
 
             <!-- Main navigation -->
             <nav class="navbar animated delay2 fadeInDown">
@@ -64,11 +67,8 @@
                         </div>
                         <div class="nav-collapse collapse">
                             <ul class="nav text-center">
-                                <li><a href="index.html">Profile <i class="icon-vcard"></i></a></li>
-                                <li><a href="skills.html">Resume <i class="icon-chart-bar"></i></a></li>
-                                <li><a href="work.html">Works <i class="icon-briefcase"></i></a></li>
-                                <li><a href="education.html">Education <i class="icon-graduation-cap"></i></a></li>
-                                <li><a href="contact.html">Contact <i class="icon-mail"></i></a></li>
+                                <li><a href="~/home">Home <i class="icon-vcard"></i></a></li>
+                                <li><a href="~/home/Contact">Contact <i class="icon-mail"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -81,56 +81,61 @@
 
 
         <div id="content" class="main animated delay3 fadeInUp" role="main">
-            @RenderBody()
+            <div id="home-placeholder" class="text-center" style="max-width: 100%; height: auto;">
+                <img class="img-responsive" style="max-height: 300px; margin: auto;" src="//c1.staticflickr.com/1/475/18359483720_00c5c382ff_c.jpg" />
+            </div>
+            <div class="maintext">
+                @RenderBody()
+            </div>
+            <!-- // Main content -->
+            <!-- Main footer -->
+            @*<footer class="site-footer text-center animated delay3 fadeInUp">
+
+                <!-- Facebook like button. Replace example.com with your site URL. -->
+                <div class="fb-like" data-href="http://example.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                <!-- Twitter share button -->
+                <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                <!-- Google Plus button -->
+                <div class="g-plusone" data-size="small"></div>
+                <script>
+                    window.___gcfg = { lang: 'en' };
+                    (function () { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();
+                </script>
+                <!-- Pinterest widget -->
+                <a href="//pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" alt="//" /></a>
+                <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+            </footer>*@
+            <!-- // Main footer -->
+            <!-- Scripts
+            ================================================== -->
+            <!-- CSS3PIE. Load only for IE9 and lower. -->
+            <!--[if IE]> <script src="js/vendor/PIE.js"></script> <![endif]-->
+            <!-- Always latest version of jQuery-->
+            @*<script src="js/jquery-1.9.1.min.js"></script>
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+                <!-- Bootstrap -->
+                <script src="js/bootstrap/bootstrap.min.js"></script>
+
+                <!-- Main JS file -->
+                <script src="js/script.js"></script>*@
         </div>
-        <!-- // Main content -->
-        <!-- Main footer -->
-        <footer class="site-footer text-center animated delay3 fadeInUp">
+        @Scripts.Render("~/bundles/resume-theme")
+        @Scripts.Render("~/bundles/modernizr")
+        @Scripts.Render("~/bundles/custom")
+        @RenderSection("scripts", required: false)
 
-            <!-- Facebook like button. Replace example.com with your site URL. -->
-            <div class="fb-like" data-href="http://example.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
-            <!-- Twitter share button -->
-            <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-            <!-- Google Plus button -->
-            <div class="g-plusone" data-size="small"></div>
-            <script>
-        window.___gcfg = {lang: 'en'};
-        (function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();
-            </script>
-            <!-- Pinterest widget -->
-            <a href="//pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" alt="//" /></a>
-            <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
-        </footer>
-        <!-- // Main footer -->
-        <!-- Scripts
-        ================================================== -->
-        <!-- CSS3PIE. Load only for IE9 and lower. -->
-        <!--[if IE]> <script src="js/vendor/PIE.js"></script> <![endif]-->
-        <!-- Always latest version of jQuery-->
-        @*<script src="js/jquery-1.9.1.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <!-- Bootstrap -->
-        <script src="js/bootstrap/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                Resume.Layout.StartUp();
+            });
 
-        <!-- Main JS file -->
-        <script src="js/script.js"></script>*@
-    </div>
-    @Scripts.Render("~/bundles/resume-theme")
-    @Scripts.Render("~/bundles/modernizr")
-    @Scripts.Render("~/bundles/custom")
-    @RenderSection("scripts", required: false)
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            Resume.Layout.StartUp();
-        });
-
-        Resume.Layout.StartUp = function () {
-            if (Resume.Page.StartUp) {
-                Resume.Page.StartUp();
+            Resume.Layout.StartUp = function () {
+                if (Resume.Page.StartUp) {
+                    Resume.Page.StartUp();
+                }
             }
-        }
-    </script>
+        </script>
+    </div>
 </body>
 </html>

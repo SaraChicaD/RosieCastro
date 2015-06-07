@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 /* ============================== */
 /* 
@@ -363,7 +363,7 @@ header.site-header h1 {
  */ 
  
  #home-placeholder {
-  background: #c48573 url("../img/big-home-into.jpg") no-repeat 0 0;
+  background: #C0D9D9 url("//c1.staticflickr.com/1/475/18359483720_00c5c382ff_c.jpg") no-repeat 0 0;
   height: 300px;
   margin: 0;
   border-radius: 4px 4px 0 0;
